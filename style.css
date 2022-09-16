@@ -1,0 +1,52 @@
+*{
+    font-family: "Times New Roman", Times, serif;
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+h3{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+table{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+tr{
+    height: 50px;
+}
+tr:nth-child(even){
+    background-color: #FFE4B5;
+}
+tr:nth-child(odd){
+    background-color: #FA8072;
+}
+td{
+    width: 200px;
+    border: 1px solid black;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-around;    
+}
+button:hover {
+    background-color: yellowgreen;
+  }
+
+button{
+    font-weight: bold;
+}
+
